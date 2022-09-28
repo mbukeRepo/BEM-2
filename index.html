@@ -12,12 +12,12 @@
     <title>BEM practice | KMarketer</title>
   </head>
   <body>
-    <header class="header-container">
-      <nav class="nav-bar">
-        <h1 class="title title--letter-spacing nav-bar__title--left-spacing">
+    <header class="header">
+      <nav class="header__item nav-bar">
+        <h1 class="header__title title title--letter-spacing nav-bar__title--left-spacing">
           KMarketer
         </h1>
-        <ul class="menu menu--flex">
+        <ul class="header__menu menu menu--flex">
           <li class="item">Home</li>
           <li class="item">Products</li>
           <li class="item">Pricing</li>
@@ -37,12 +37,12 @@
       </nav>
 
       <!-- nav on mobile screen -->
-      <nav class="mobile-nav">
-        <div class="mobile-nav__header">
+      <nav class="header__item mobile-nav">
+        <div class="header__nav mobile-nav__header">
           <h1 class="title title--letter-spacing nav-bar__title--left-spacing">
             KMarketer
           </h1>
-          <ul class="menu item--flex">
+          <ul class="header__menu menu item--flex">
             <li class="item">
               <img src="./images/seach-icon.svg" />
             </li>
@@ -55,7 +55,7 @@
           </ul>
         </div>
 
-        <ul class="menu menu--flex-col">
+        <ul class="header__menu menu menu--flex-col">
           <li class="item">Home</li>
           <li class="item">Products</li>
           <li class="item">Pricing</li>
@@ -63,32 +63,32 @@
         </ul>
       </nav>
       <div class="header__desc">
-        <h1 class="title title--extra-large">
+        <h1 class="header__title title title--extra-large">
           Experts are here solve your business problem.
         </h1>
-        <p class="item item--large">
+        <p class="header__paragraph item item--large">
           We know how large objects will act, but things on a <br />
           small scale just do not act that way.
         </p>
       </div>
-      <div class="header-btn-container header-btn-container--flex-center">
-        <button class="btn btn--active btn--extra-rounded">
+      <div class="header__btn-container header__btn-container--flex-center">
+        <button class="header__btn btn btn--active btn--extra-rounded">
           Get quote now
         </button>
-        <button class="btn btn--bordered btn--extra-rounded">Learn more</button>
+        <button class="header__btn btn btn--bordered btn--extra-rounded">Learn more</button>
       </div>
     </header>
 
-    <!-- Product start -->
+    <!-- Products -->
     <section class="product-container">
       <div class="product-container__header">
-        <h1 class="title item--center title--large">WHY CHOOSE US</h1>
+        <h1 class="product-container__title title item--center title--large">WHY CHOOSE US</h1>
         <p class="item item--center">
           Problems trying to resolve the conflict between the two major realms
           of Classical physics: Newtonian mechanics
         </p>
       </div>
-      <div class="card-container">
+      <div class="product__container-body card-container">
         <div class="card card--outlined">
           <div class="card__header">
             <img
@@ -167,11 +167,11 @@
     <!-- Pricing -->
     <section class="pricing">
       <div class="pricing__header">
-        <h1 class="title item--center title--large">
+        <h1 class="pricing__header-item title item--center title--large">
           We are providing best <br />
           business service.
         </h1>
-        <p class="item item--center">
+        <p class="pricing__header-item item item--center">
           Problems trying to resolve the conflict between <br />
           the two major realms of Classical physics: Newtonian mechanics
         </p>
@@ -399,19 +399,19 @@
     <!-- pre-footer -->
     <section class="pre-footer">
       <div>
-        <h1 class="title pre-footer__title">
+        <h1 class="pre-footer__title title">
           Consulting Agency For Your Business
         </h1>
-        <p class="item item--lighter pre-footer__description">
+        <p class="pre-footer__description item item--lighter">
           the quick fox jumps over the lazy dog
         </p>
       </div>
-      <button class="btn btn--active pre-footer__button">Contact Us</button>
+      <button class="pre-footer__button btn btn--active">Contact Us</button>
     </section>
 
     <!-- Footer -->
-    <section class="footer-container">
-      <footer class="footer">
+    <section class="footer">
+      <footer class="footer__container">
         <div class="footer__header">
           <h1 class="footer__title">KMarketer</h1>
           <div class="footer__icons-container">
@@ -479,7 +479,7 @@
       </footer>
 
       <div class="post-footer">
-        <p>Made With Love By Jonathan Zihindula All Right Reserved</p>
+        <p>Made with hate by Mbuke</p>
       </div>
     </section>
   </body>

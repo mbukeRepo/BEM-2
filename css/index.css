@@ -111,13 +111,13 @@ html {
   gap: 1rem;
 }
 
-.header-btn-container {
+.header__btn-container {
   gap: 2rem;
   padding-top: 3rem;
   padding-bottom: 10rem;
 }
 
-.header-btn-container--flex-center {
+.header__btn-container--flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -373,12 +373,12 @@ pricing__header {
   padding: 3rem 0;
 }
 
-.footer-container {
+.footer {
   background-color: #252b42;
   height: fit-content;
 }
 
-.footer {
+.footer__container {
   width: 70%;
   margin: 0 auto;
 }
@@ -491,7 +491,7 @@ Media queries
     padding-left: 0;
   }
 
-  .header-container {
+  .header {
     padding: 2rem;
   }
 

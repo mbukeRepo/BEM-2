@@ -293,19 +293,19 @@ pricing__header {
   padding: 5rem 0;
 }
 
-.team-header {
+.team__header {
   padding: 0 0 5rem 0;
 }
-.team-body {
+.team__body {
   display: gird;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.team-card {
+.team__card {
   padding: 0 0 2rem 0;
 }
 
-.team-card__image {
+.team__image {
   width: 100%;
   height: 300px;
   object-fit: cover;
@@ -668,18 +668,18 @@ Media queries
     grid-column: span 2;
   }
 
-  .team-card--span-full {
+  .team__card--span-full {
     grid-column: span 2;
     display: flex;
     padding-bottom: 0;
   }
 
-  .team-card__image--full-heigh {
+  .team__image--full-height {
     height: 100%;
     width: 60%;
   }
 
-  .team-card--col {
+  .team__card--col {
     display: flex;
     flex-direction: column;
     justify-content: center;

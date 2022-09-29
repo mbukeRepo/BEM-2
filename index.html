@@ -13,8 +13,8 @@
   </head>
   <body>
     <header class="header">
-      <nav class="header__item nav-bar">
-        <h1 class="header__title title title--letter-spacing nav-bar__title--left-spacing">
+      <nav class="header__item nav-item">
+        <h1 class="header__title title title--letter-spacing nav-item__title nav-item__title--left-spacing">
           KMarketer
         </h1>
         <ul class="header__menu menu menu--flexed">
@@ -35,27 +35,27 @@
       <!-- nav on mobile screen -->
       <nav class="header__item mobile-nav">
         <div class="header__nav mobile-nav__header">
-          <h1 class="title title--letter-spacing nav-bar__title--left-spacing">
+          <h1 class="title title--letter-spacing nav-item nav-item__title--left-spacing">
             KMarketer
           </h1>
           <ul class="header__menu menu item--flexed">
-            <li class="item">
+            <li class="menu__item">
               <img src="./images/seach-icon.svg" />
             </li>
-            <li class="item">
+            <li class="menu__item">
               <img src="./images/shopping-card-icon.svg" />
             </li>
-            <li class="item">
+            <li class="menu__item">
               <img src="./images/menu-icon.svg" />
             </li>
           </ul>
         </div>
 
         <ul class="header__menu menu menu--flexed-col">
-          <li class="item">Home</li>
-          <li class="item">Products</li>
-          <li class="item">Pricing</li>
-          <li class="item">Contact</li>
+          <li class="menu__item">Home</li>
+          <li class="menu__item">Products</li>
+          <li class="menu__item">Pricing</li>
+          <li class="menu__item">Contact</li>
         </ul>
       </nav>
       <div class="header__desc">
@@ -206,7 +206,7 @@
           the two major realms of Classical physics: Newtonian mechanics
         </p>
       </div>
-      <div class="footer__container container container--grid feedback">
+      <div class="feedback__container container container--grid">
         <div class="feedback__card feedback__card--span-full">
           <div class="feedback__card-header">
             <img src="./images/stars.svg" />
@@ -331,7 +331,7 @@
             </p>
           </div>
         </div>
-        <div class="team-card card--outlined">
+        <div class="team-card team-card--outlined">
           <img class="team-card__image" src="./images/human4.jpeg" />
           <p class="team-card__name item--center">Jenny L.</p>
           <div class="team-card__footer">
@@ -394,14 +394,12 @@
 
     <!-- pre-footer -->
     <section class="pre-footer">
-      <div>
         <h1 class="pre-footer__title title">
           Consulting Agency For Your Business
         </h1>
         <p class="pre-footer__description item item--lighter">
           the quick fox jumps over the lazy dog
         </p>
-      </div>
       <button class="pre-footer__button btn btn--active">Contact Us</button>
     </section>
 

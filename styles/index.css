@@ -63,6 +63,12 @@ html {
   margin: 0;
 }
 
+.menu__item {
+  color: #737373;
+  margin: 0;
+}
+
+
 .item--small {
   font-size: small;
 }
@@ -157,7 +163,7 @@ html {
   margin: 0 auto;
 }
 
-pricing__header {
+.pricing__header {
   max-width: 60%;
   margin: 0 auto;
 }
@@ -454,8 +460,11 @@ Media queries
 */
 
 @media screen and (max-width: 768px) {
-  .nav-bar {
+  .nav-item {
     display: none;
+  }
+  .nav-item__title {
+    font-size: 1.2rem;
   }
 
   .mobile-nav {

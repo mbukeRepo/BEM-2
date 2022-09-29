@@ -185,7 +185,7 @@ pricing__header {
   align-items: center;
 }
 
-.card-title {
+.card__title {
   font-weight: bolder;
 }
 
@@ -474,7 +474,7 @@ Media queries
     padding: 0;
   }
 
-  .menu--flex-col {
+  .menu--flexed-col {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -650,7 +650,7 @@ Media queries
     grid-template-columns: 1fr 1fr;
   }
 
-  .item--flex {
+  .item--flexed {
     padding: 0 0rem 0 1rem;
   }
 

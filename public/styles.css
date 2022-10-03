@@ -22,7 +22,7 @@
 
 ::before,
 ::after {
-  --tw-content: '';
+  --tw-content: "";
 }
 
 /*
@@ -806,7 +806,7 @@
 }
 
 .contactus-section__body {
-  background-image: url('../images/cover.svg');
+  background-image: url("../images/cover.svg");
   background-position: center;
   background-repeat: no-repeat;
   padding-left: 3rem;
@@ -1117,7 +1117,7 @@
 .footer__break {
 }
 
-.footer__copyright {
+.copyright-section {
   --tw-bg-opacity: 1;
   background-color: rgb(13 148 136 / var(--tw-bg-opacity));
   padding-top: 1rem;
